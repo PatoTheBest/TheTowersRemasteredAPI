@@ -32,8 +32,6 @@ public interface IArena extends ConfigurationSerializable {
 
     void removeGameTeam(String name);
 
-    void sendMessageToArena(String message);
-
     boolean isFull();
 
     String getName();
