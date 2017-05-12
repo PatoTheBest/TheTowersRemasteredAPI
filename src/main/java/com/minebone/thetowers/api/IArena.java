@@ -52,8 +52,6 @@ public interface IArena extends ConfigurationSerializable {
 
     int getMaxPlayers();
 
-    ArenaState getArenaState();
-
     void setMinPlayers(int minPlayers);
 
     void setMaxPlayers(int maxPlayers);
