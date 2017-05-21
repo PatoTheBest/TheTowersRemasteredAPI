@@ -1,7 +1,7 @@
-package com.minebone.thetowers.api.events;
+package net.megaplanet.thetowers.api.events;
 
-import com.minebone.thetowers.api.IArena;
-import com.minebone.thetowers.api.IGameTeam;
+import net.megaplanet.thetowers.api.IArena;
+import net.megaplanet.thetowers.api.IGameTeam;
 import org.bukkit.entity.Player;
 
 public class PlayerLeaveArenaEvent extends TheTowersEvent {

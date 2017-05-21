@@ -1,4 +1,4 @@
-package com.minebone.thetowers.api;
+package net.megaplanet.thetowers.api;
 
 import org.bukkit.DyeColor;
 import org.bukkit.Location;

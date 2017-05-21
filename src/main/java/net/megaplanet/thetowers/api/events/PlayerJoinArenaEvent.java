@@ -1,6 +1,6 @@
-package com.minebone.thetowers.api.events;
+package net.megaplanet.thetowers.api.events;
 
-import com.minebone.thetowers.api.IArena;
+import net.megaplanet.thetowers.api.IArena;
 import org.bukkit.entity.Player;
 
 public class PlayerJoinArenaEvent extends TheTowersEvent {

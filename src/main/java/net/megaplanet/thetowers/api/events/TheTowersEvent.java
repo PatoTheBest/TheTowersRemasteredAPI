@@ -1,4 +1,4 @@
-package com.minebone.thetowers.api.events;
+package net.megaplanet.thetowers.api.events;
 
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
