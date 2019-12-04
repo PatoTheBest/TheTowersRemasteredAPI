@@ -43,7 +43,7 @@ public interface IArena extends ConfigurationSerializable {
 
     IGameTeam getTeam(String name);
 
-    List<Player> getPlayers();
+    List<Player> getArenaPlayers();
 
     int getMinPlayers();
 
