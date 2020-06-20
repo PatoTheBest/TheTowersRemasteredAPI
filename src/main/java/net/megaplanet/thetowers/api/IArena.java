@@ -21,11 +21,11 @@ public interface IArena extends ConfigurationSerializable {
 
     void disableArena();
 
-    IGameTeam getTeamPreference(Player player);
+    IGameTeam getGameTeamPreference(Player player);
 
-    IGameTeam getTeam(Player player);
+    IGameTeam getGameTeam(Player player);
 
-    IGameTeam getTeam(DyeColor color);
+    IGameTeam getGameTeam(DyeColor color);
 
     void removeGameTeam(String name);
 
@@ -41,7 +41,7 @@ public interface IArena extends ConfigurationSerializable {
 
     boolean containsTeam(String name);
 
-    IGameTeam getTeam(String name);
+    IGameTeam getGameTeam(String name);
 
     List<Player> getArenaPlayers();
 
